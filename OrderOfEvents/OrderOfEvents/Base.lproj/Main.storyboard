@@ -51,7 +51,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nothing has happened yet" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ZS-Rw-EGw">
-                                <rect key="frame" x="107" y="155" width="201" height="21"/>
+                                <rect key="frame" x="107" y="155" width="201" height="405"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -63,13 +63,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="mkE-7s-M7L"/>
                     <connections>
-                        <outlet property="middleLabel" destination="9ZS-Rw-EGw" id="SEC-qh-liG"/>
-                        <outlet property="view" destination="9ZS-Rw-EGw" id="sVo-i6-5m6"/>
+                        <outlet property="middleLabel" destination="9ZS-Rw-EGw" id="bb8-Np-dKk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="peR-Ts-ERI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1432" y="88"/>
+            <point key="canvasLocation" x="1431.8840579710145" y="87.723214285714278"/>
         </scene>
         <!--Last View Controller-->
         <scene sceneID="ycH-pv-iQa">

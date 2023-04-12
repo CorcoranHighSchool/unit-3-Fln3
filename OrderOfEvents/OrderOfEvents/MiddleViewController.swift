@@ -16,7 +16,21 @@ class MiddleViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        addEvent(from: "ViewDidLoad")
 
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        addEvent(from: "ViewWillAppear")
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated); addEvent(from: "ViewDidAppear")
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated); addEvent(from: "ViewWillDisappear")
+    }
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated); addEvent(from: "viewDidDisappear")
     }
         func addEvent(from: String){
             if let existingText = middleLabel.text {
